@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0; background:url(13327.jpg) repeat; color:white; font-family: Arial, Helvetica, sans-serif;}
+.hero-image {
+  background: url(web8.jpg) no-repeat center; 
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Profile</a></li>
+  <li><a href="#contact1">Skills</a></li>
+  <li><a href="#contact2">Education</a></li>
+  <li><a href="#contact3">Languages</a></li>
+  <li><a href="#contact4">Hobbies</a></li>
+  <li class="right"><a href="#about">Contact me</a></li>
+</ul>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">I am Kareem Taha</h1>
+    <h3>That's My CV</h3>
+  </div>
+</div>
+<div id="news" style="position: relative; padding:10px;">
+<h1 style="text-align:center;">Profile<hr></h1>
+<p style="text-align:center;">Hello, I am 20 years old ,Senior web developer with over 10 years of experience in front and development.I have CSS,JAVASCRIPT,HTML,JAVA,C,C++ and Python a language of programming and web.Strong background in management and leaderShip.</p>
+</div>
+
+<div id="contact1" style="position: relative; padding:10px; border:1px solid transparent; border-radius:20px;">
+<h1 style="text-align:center;">Skills<hr></h1>
+<p style="text-align:center; font-size:15px;">1-Web Developer With HTML, CSS and Java Script.<br>2-Programmer With C ,C++ ,Python and Java.<br>3-hardware Engineer.<br>4-software Engineer.</p>
+</div>
+
+<div id="contact2" style="position: relative; padding:10px; border:1px solid transparent; border-radius:20px;">
+<h1 style="text-align:center;">Education<hr></h1>
+<p style="text-align:center; font-size:15px;">Communication and Electronics Engineering Faculty at Bentha University.</p>
+</div>
+
+<div id="contact3" style="position: relative; padding:10px; border:1px solid transparent; border-radius:20px;">
+<h1 style="text-align:center;">Languages<hr></h1>
+<p style="text-align:center; font-size:15px;">1-English.<br>2-French.<br>3-Arabic.</p>
+</div>
+
+<div id="contact4" style="position: relative; padding:10px; border:1px solid transparent; border-radius:20px;">
+<h1 style="text-align:center;">Hobbies<hr></h1>
+<p style="text-align:center; font-size:15px;">1-Swimming.<br>2-Skating.<br>3-Reading.<br>5-Design Web.<br>6-Play Game.<br>7-Playstation.<br>8-Keep Birds.</p>
+</div>
+<div id="about" style="position: relative; padding:10px; border:1px solid transparent; border-radius:20px;">
+<h1 style="text-align:center;">Contace Me<hr></h1>
+<form action="/action_page.php" style="left:50%;">
+<p style="text-align:center;"><input type"text" id="name" placeholder="enter your name" style="border:1px solid transparent; border-radius:15px; height:30px; margin:15px;"><br>
+<input type"text" id="email" placeholder="enter your email" style="border:1px solid transparent; border-radius:15px; height:30px; margin:15px;"><br><input type"text" id="messege" placeholder="enter your massege" style="border:1px solid transparent; border-radius:15px; height:150px; margin:15px;"><br><input type="button" id="button"  onclick="alert('Hello,Messege send Successfuly!')" value="Submit" style="background-color:black; color:white; border:1px solid transparent; border-radius:15px;"></p>
+</form>
+</div>
+
+</body>
+</html>
